@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Game of War</title>
+</head>
+<body>
+    <h1 id="game-title">The Game of War</h1>
+    <h2 id="game-message">Start Game</h2>
+    <p id="cards-left">Remaining cards: ???</p>
+    <div class="player-name-container">
+        <p class="player-name-computer">Computer : <span id="computer-score-el">0</span></p>
+        <p class="player-name-player1">Player 1 : <span id="player-score-el">0</span></p>
+    </div>
+    <div id="cards-container">
+        <div id="card-slot-1"></div>
+        <div id="card-slot-2"></div>
+    </div>
+    <button id="new-deck">New Deck</button>
+    <button id="draw-cards">Draw Cards</button>
+    <script src="script.js"></script>
+</body>
+</html>
