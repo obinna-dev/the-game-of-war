@@ -4,12 +4,13 @@ body    {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    background-image: url(/img/table.png);
+    background-image: url("img/table.png");
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    max-width: 700px
 }
 
 h1  {
